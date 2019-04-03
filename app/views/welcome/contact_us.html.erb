@@ -1,0 +1,18 @@
+<h1>Contáctenos</h1>
+<address>Address: xxxxxx xxxxxx</address>
+<p>Telefono movil 313 237 66 83</p>
+
+
+<%# Para utilizar métodos post %>
+
+<%= form_for @welcome, url:ruta_path, method: :post do |f| %>
+
+<div> 
+</div>
+
+<%end %>
+
+<%# Para utilizar métodos get %>
+<%= form_tag("search?q=user", method: :get) do %>
+
+<%end %>
